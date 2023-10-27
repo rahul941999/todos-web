@@ -10,3 +10,5 @@ def read(filepath=FILEPATH):
 def write(todos_arg, filepath=FILEPATH):
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
+
+
